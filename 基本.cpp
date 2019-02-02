@@ -24,8 +24,8 @@ int main(){
 		if(data.count(sender)){
 			data[sender]+=length;
 			if(data[sender]>1500 && count(hacker.begin(),hacker.end(),sender)==0){
-				cout<<sender<<endl;
-			    hacker[num]==sender;
+				cout<<sender<<endl;//输出黑客名 
+			    hacker[num]=sender;//储存黑客 
 			    num++;
 			}
 		}
@@ -34,10 +34,7 @@ int main(){
 		
 		
 	}
-	//输出黑客 
-	for(int i=0;i<=num;i++)
-    cout<<hacker[i];
-     
+    //输出数目 
     cout<<num;
     return 0;
 } 
